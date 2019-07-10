@@ -17,5 +17,11 @@ public class MainActivity extends AppCompatActivity {
         spec.setContent(R.id.Data);
         spec.setIndicator("Data");
         tabs.addTab(spec);
+
+        spec = tabs.newTabSpec("Tag 2");
+        spec.setContent(R.id.Sensor);
+        spec.setIndicator("Sensor");
+        tabs.addTab(spec);
+        tabs.setCurrentTab(0);
     }
 }

@@ -16,7 +16,14 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".InputData"></activity>
+        <activity android:name=".akses_sensor" />
+
+        <service
+            android:name=".barang"
+            android:enabled="true"
+            android:exported="true" />
+
+        <activity android:name=".input_data"></activity>
     </application>
 
 </manifest>

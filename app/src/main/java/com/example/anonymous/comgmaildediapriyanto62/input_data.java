@@ -3,7 +3,7 @@ package com.example.anonymous.comgmaildediapriyanto62;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 
-public class InputData extends AppCompatActivity {
+public class input_data extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
